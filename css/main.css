@@ -1,0 +1,198 @@
+.bio {
+  padding: 50px 0;
+}
+
+.bio h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.bio p {
+  column-count: 2;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.divider {
+  border-bottom: 1px solid #ccc;
+  margin: 50px 0;
+  width: 500px;
+}
+
+.employment {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-top: 10px;
+  width: 700px;
+}
+
+.employment > p {
+  font-size: 16px;
+  border-bottom: 1px dashed grey;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+.employment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  width: 700px;
+}
+
+.employment-list li {
+  background: white;
+  display: flex;
+  height: 75px;
+  width: calc(50% - 25px);
+}
+
+.employment-list li:nth-child(-n + 2) {
+  margin-bottom: 20px;
+}
+
+.employment-list li img {
+  width: 75px;
+  object-fit: fill;
+}
+.employment-list div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 15px;
+}
+
+.employment-list div h5 {
+  color: navy;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.employment-list div p {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.list {
+
+}
+
+.list > h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.links {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.links > a {
+  margin: 0 15px;
+}
+
+.links svg {
+  fill: #ccc;
+  transition: fill 0.5s;
+}
+
+.links svg:hover {
+  fill: red;
+}
+
+.other-info {
+  min-height: 100vh;
+}
+
+.personal-info {
+  align-items: center;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.personal-info header {
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.personal-info header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.personal-info h1 {
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.personal-info section > p {
+  align-self: flex-start;
+  color: #aaa;
+  background: #eee;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.personal-info section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.professional-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.professional-info > div {
+  width: 50%;
+}
+
+.project-list > li h5 {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+.project-list > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.project-list ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.project-list ul > li {
+  color: #aaa;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.project-list ul > li:not(:last-child)::after {
+  content: "\00b7";
+  margin: 0 5px;
+}
