@@ -78,10 +78,6 @@
   margin-top: 5px;
 }
 
-.list {
-
-}
-
 .list > h2 {
   font-size: 20px;
   letter-spacing: 2px;
@@ -129,6 +125,7 @@
       -ms-animation: fadein 4s; /* Internet Explorer */
        -o-animation: fadein 4s; /* Opera < 12.1 */
           animation: fadein 4s;
+
 }
 
 @keyframes fadein {
@@ -230,4 +227,90 @@
 .project-list ul > li:not(:last-child)::after {
   content: "\00b7";
   margin: 0 5px;
+}
+
+@media only screen and (max-width: 425px) {
+  .bio {
+    height: 100vh;
+    overflow: hidden;
+    padding: 50px 20px;
+    width: unset;
+  }
+
+  .bio p {
+    column-count: 1;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .divider {
+    margin: 25px 0;
+  }
+
+  .employment {
+    width: 100%;
+  }
+
+  .employment p {
+    font-size: 12px;
+  }
+
+  .employment-list {
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .employment-list li {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .links {
+    margin-bottom: 15px;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  .personal-info {
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+  .personal-info section {
+    overflow: hidden;
+    width: calc(100vw - 40px);
+  }
+
+  .personal-info header {
+    display: flex;
+    flex-direction: column;
+    width: unset;
+  }
+
+  .personal-info header img {
+    margin-bottom: 20px;
+  }
+
+  .personal-info h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .professional-info {
+    overflow: hidden;
+    width: unset;
+  }
+
+  .professional-info > div {
+    height: 100vh;
+    padding: 50px 20px;
+    width: 100%;
+  }
+
+  .professional-info > div:first-child {
+    background: white;
+  }
 }

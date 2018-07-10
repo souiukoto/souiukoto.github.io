@@ -1,4 +1,5 @@
 body, p, a, input, a, ul, ol, li, section, h1, h2, h3, h4, h5, h6, div, img {
+  box-sizing: border-box;
   font-family: inherit;
   font-size: 12px;
   font-weight: 400;
