@@ -18,6 +18,7 @@
 .divider {
   border-bottom: 1px solid #ccc;
   margin: 50px 0;
+  max-width: 100vw;
   width: 500px;
 }
 
@@ -26,6 +27,7 @@
   align-items: center;
   font-size: 24px;
   margin-top: 10px;
+  max-width: 100vw;
   width: 700px;
 }
 
@@ -40,6 +42,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 100vw;
   padding-bottom: 50px;
   width: 700px;
 }
@@ -90,6 +93,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  max-width: 100vw;
   width: 700px;
 }
 
@@ -160,6 +164,7 @@
 .personal-info header {
   align-items: center;
   margin-bottom: 20px;
+  max-width: 100vw;
   display: flex;
 }
 
@@ -227,90 +232,4 @@
 .project-list ul > li:not(:last-child)::after {
   content: "\00b7";
   margin: 0 5px;
-}
-
-@media only screen and (max-width: 425px) {
-  .bio {
-    height: 100vh;
-    overflow: hidden;
-    padding: 50px 20px;
-    width: unset;
-  }
-
-  .bio p {
-    column-count: 1;
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .divider {
-    margin: 25px 0;
-  }
-
-  .employment {
-    width: 100%;
-  }
-
-  .employment p {
-    font-size: 12px;
-  }
-
-  .employment-list {
-    flex-direction: column;
-    overflow: hidden;
-    width: 100%;
-  }
-
-  .employment-list li {
-    margin-bottom: 20px;
-    width: 100%;
-  }
-
-  .links {
-    margin-bottom: 15px;
-  }
-
-  .list {
-    width: 100%;
-  }
-
-  .personal-info {
-    padding: 0 20px;
-    overflow: hidden;
-  }
-
-  .personal-info section {
-    overflow: hidden;
-    width: calc(100vw - 40px);
-  }
-
-  .personal-info header {
-    display: flex;
-    flex-direction: column;
-    width: unset;
-  }
-
-  .personal-info header img {
-    margin-bottom: 20px;
-  }
-
-  .personal-info h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .professional-info {
-    overflow: hidden;
-    width: unset;
-  }
-
-  .professional-info > div {
-    height: 100vh;
-    padding: 50px 20px;
-    width: 100%;
-  }
-
-  .professional-info > div:first-child {
-    background: white;
-  }
 }

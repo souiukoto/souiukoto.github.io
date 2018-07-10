@@ -1,0 +1,86 @@
+@media only screen and (max-width: 700px) {
+  .bio {
+    padding: 50px 20px;
+    width: unset;
+  }
+
+  .bio p {
+    column-count: 1;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .employment {
+    width: 100%;
+  }
+
+  .employment p {
+    font-size: 12px;
+  }
+
+  .employment-list {
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+
+  .employment-list li {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .personal-info {
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+  .personal-info section {
+    overflow: hidden;
+    width: calc(100vw - 40px);
+  }
+
+  .personal-info header {
+    display: flex;
+    flex-direction: column;
+    width: unset;
+  }
+
+  .personal-info header img {
+    margin-bottom: 20px;
+  }
+
+  .personal-info h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .professional-info {
+    overflow: hidden;
+    width: unset;
+  }
+
+  .professional-info > div {
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .bio {
+    padding: 50px 20px 75px;
+  }
+
+  .divider {
+    margin: 25px 0;
+  }
+
+  .professional-info > div {
+    padding: 50px 20px 75px;
+    width: 100%;
+  }
+
+  .professional-info > div:first-child {
+    background: white;
+  }
+}
